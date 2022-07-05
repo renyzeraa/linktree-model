@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+  --hue: 370;
+  --bg: hsl(var(--hue), 100%, 96%);
+  --bg-two: hsl(var(--hue), 81%, 59%);
+  --title: hsl(var(--hue), 100%, 9%);
+  --text: hsla(var(--hue), 100%, 9%, 0.8);
+  --button-hover: hsl(var(--hue), 81%, 20%);
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+
+  grid-template-columns: 1fr 450px 1fr;
+  background: var(--bg);
+}
+
+.content {
+  margin: 63px 30px;
+  display: grid;
+  grid-area: 1/ 2;
+  justify-items: center;
+  gap: 15px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  width: 50%;
+  padding: 7px;
+  border-radius: 50%;
+  border: 5px solid var(--bg-two);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--title);
+}
+
+a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--text);
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+button {
+  margin-top: 15px;
+  width: 300px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: var(--bg-two);
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--button-hover);
+  transition: 1s;
+}
+
+button > a {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 14px;
+  text-transform: uppercase;
+
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+button > a:hover {
+  font-weight: bold;
+  transition: 1s;
+}
+
+button a > img {
+  width: 20px;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+footer p,
+footer a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text);
+}
+
+.dark-light-mode {
+  background: transparent;
+  display: block;
+}
+
+.dark-light-mode li {
+  position: absolute;
+  padding: 0;
+  top: 20px;
+  right: 30px;
+}
+
+.light-mode {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.dark-mode {
+  background: #404040;
+}
+
+.dark img,
+.light img {
+  max-width: 50px;
+}
+
+.dark-light-mode li.hiden {
+  display: none;
+}
+
+.dark-light-mode:hover {
+  background: transparent;
+}
