@@ -10,7 +10,7 @@ Rolou a segunda maratona explorer da RocketSeat 🚀, e decidi participar para b
 
 O projeto final é uma estilo de links úteis em uma página só, segue o deploy e o projeto no figma para caso você queira fazer tambem !
 
-![Figma](<https://www.figma.com/file/45FqzDptrahgTIZ8zLlSoY/Rocket-Links---Maratona-Explorer-2.0-(Community)-(Copy)>)
+[Figma](<https://www.figma.com/file/45FqzDptrahgTIZ8zLlSoY/Rocket-Links---Maratona-Explorer-2.0-(Community)-(Copy)>)
 
 Para duplicar os layouts, basta você clicar no link abaixo.
 Ele adicionará o Layout à sua dashboard do Figma automaticamente, como uma cópia.
