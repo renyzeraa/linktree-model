@@ -1,6 +1,6 @@
 # Maratona Explorer 2.0
 
-Faaala dev! 💛
+Faaala dev!, seja bem-vindo a mais um projeto.
 
 Rolou a segunda maratona explorer da RocketSeat 🚀, e decidi participar para botar alguns dos conhecimentos que aprendi em praticar e também para continuar adquirindo novos conhecimentos.
 
