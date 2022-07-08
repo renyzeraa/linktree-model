@@ -17,10 +17,20 @@
   --button-hover: hsl(var(--hue), 81%, 20%);
 }
 
+.light-mode {
+  --text: black;
+  --title: hsl(var(--hue), 100%, 9%);
+}
+.dark-mode {
+  --bg: #404040;
+  --text: hsla(0, 0%, 100%, 1);
+  --title: hsl(var(--hue), 81%, 59%);
+}
+
 body {
   font-family: 'Roboto Mono', monospace;
-
-  grid-template-columns: 1fr 450px 1fr;
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
   background: var(--bg);
 }
 
@@ -51,6 +61,10 @@ h1 {
   color: var(--title);
 }
 
+.text {
+  color: var(--text);
+}
+
 a {
   font-weight: 400;
   font-size: 18px;
@@ -62,22 +76,28 @@ a {
 li {
   list-style: none;
 }
+
 button {
-  margin-top: 15px;
-  width: 300px;
-  padding: 20px;
-  border: none;
-  border-radius: 10px;
-  background: var(--bg-two);
   cursor: pointer;
 }
 
-button:hover {
+.select {
+  margin-top: 15px;
+  width: 400px;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
   background: var(--button-hover);
-  transition: 1s;
 }
 
-button > a {
+.select:hover {
+  background: var(--bg-two);
+  transition: 1s;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.select > a {
   color: hsla(0, 0%, 100%, 1);
   font-size: 14px;
   text-transform: uppercase;
@@ -88,12 +108,12 @@ button > a {
   letter-spacing: 2px;
 }
 
-button > a:hover {
+.select > a:hover {
   font-weight: bold;
   transition: 1s;
 }
 
-button a > img {
+.select a > img {
   width: 20px;
 }
 
@@ -112,21 +132,14 @@ footer a {
 .dark-light-mode {
   background: transparent;
   display: block;
+  border: none;
 }
 
 .dark-light-mode li {
   position: absolute;
   padding: 0;
   top: 20px;
-  right: 30px;
-}
-
-.light-mode {
-  color: hsla(0, 0%, 100%, 1);
-}
-
-.dark-mode {
-  background: #404040;
+  right: 50px;
 }
 
 .dark img,
@@ -134,10 +147,26 @@ footer a {
   max-width: 50px;
 }
 
-.dark-light-mode li.hiden {
+.dark-light-mode li.hidden {
   display: none;
 }
 
 .dark-light-mode:hover {
   background: transparent;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: flex;
+  }
+  .select {
+    width: 280px;
+    background: var(--bg-two);
+    padding: 15px;
+  }
+
+  .dark img,
+  .light img {
+    max-width: 40px;
+  }
 }

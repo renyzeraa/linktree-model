@@ -6,22 +6,22 @@ const footerText = document.querySelector('.footer')
 const body = document.querySelector('body')
 
 function clickButton() {
-  buttonDark.classList.toggle('hiden')
-  buttonLight.classList.toggle('hiden')
+  buttonDark.classList.toggle('hidden')
+  buttonLight.classList.toggle('hidden')
 }
 
 buttonDark.addEventListener('click', () => {
   clickButton()
-  title.classList.add('light-mode')
-  text.classList.add('light-mode')
-  footerText.classList.add('light-mode')
+  // title.classList.add('light-mode')
+  // text.classList.add('light-mode')
+  // footerText.classList.add('light-mode')
   body.classList.add('dark-mode')
 })
 
 buttonLight.addEventListener('click', () => {
   clickButton()
-  title.classList.remove('light-mode')
-  text.classList.remove('light-mode')
-  footerText.classList.remove('light-mode')
+  // title.classList.remove('light-mode')
+  // text.classList.remove('light-mode')
+  // footerText.classList.remove('light-mode')
   body.classList.remove('dark-mode')
 })
