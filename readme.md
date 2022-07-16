@@ -6,9 +6,7 @@ Rolou a segunda maratona explorer da RocketSeat 🚀, e decidi participar para b
 
 ---
 
-## Projeto
-
-<a href="https://renyzeraa.github.io/maratona-explorer2/" > Projeto Final 🛫 </a>
+## <a href="https://renyzeraa.github.io/maratona-explorer2/" > Deploy 🛫 </a>
 
 O projeto final é uma estilo de links úteis em uma página só, segue o deploy e o projeto no figma para caso você queira fazer tambem !
 
