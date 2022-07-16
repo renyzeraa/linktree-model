@@ -4,8 +4,6 @@ Faaala dev!, seja bem-vindo a mais um projeto.
 
 Rolou a segunda maratona explorer da RocketSeat 🚀, decidi participar para botar alguns dos meus conhecimentos em pratica e também para continuar adquirindo novos.
 
----
-
 ## <a href="https://renyzeraa.github.io/linktree-model/" > Deploy 🛫 </a>
 
 O projeto final é uma estilo de links úteis em uma página só (igual o linktree), segue o deploy e o projeto no figma para caso você queira fazer tambem !
