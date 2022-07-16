@@ -6,7 +6,7 @@ Rolou a segunda maratona explorer da RocketSeat 🚀, decidi participar para bot
 
 ## <a href="https://renyzeraa.github.io/linktree-model/" > Deploy 🛫 </a>
 
-O projeto final é uma estilo de links úteis em uma página só (igual o linktree), segue o deploy e o projeto no figma para caso você queira fazer tambem !
+O projeto final é uma estilo de links úteis em uma página só (igual o linktree), com darkmode, segue o projeto no figma para caso você queira fazer tambem !
 [Figma](<https://www.figma.com/file/45FqzDptrahgTIZ8zLlSoY/Rocket-Links---Maratona-Explorer-2.0-(Community)-(Copy)>)
 Para duplicar os layouts, basta você clicar no link abaixo.
 Ele adicionará o Layout à sua dashboard do Figma automaticamente, como uma cópia.
