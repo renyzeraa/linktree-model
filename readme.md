@@ -5,6 +5,7 @@ Faaala dev!, seja bem-vindo a mais um projeto.
 Rolou a segunda maratona explorer da RocketSeat 🚀, decidi participar para botar alguns dos meus conhecimentos em pratica e também para continuar adquirindo novos.
 
 ![preview](./public/image.png)
+
 ![preview](./public/image-1.png)
 
 ## <a href="https://renyzeraa.github.io/linktree-model/" > Deploy 🛫 </a>
