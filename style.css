@@ -1,172 +1,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-  font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
 :root {
-  --hue: 370;
-  --bg: hsl(var(--hue), 100%, 96%);
-  --bg-two: hsl(var(--hue), 81%, 59%);
-  --title: hsl(var(--hue), 100%, 9%);
-  --text: hsla(var(--hue), 100%, 9%, 0.8);
-  --button-hover: hsl(var(--hue), 81%, 20%);
+    --hue: 370;
+    --bg: hsl(var(--hue), 100%, 96%);
+    --bg-two: hsl(var(--hue), 81%, 59%);
+    --title: hsl(var(--hue), 100%, 9%);
+    --text: hsla(var(--hue), 100%, 9%, 0.8);
+    --button-hover: hsl(var(--hue), 81%, 20%);
 }
 
 .light-mode {
-  --text: black;
-  --title: hsl(var(--hue), 100%, 9%);
+    --text: black;
+    --title: hsl(var(--hue), 100%, 9%);
 }
 .dark-mode {
-  --bg: #404040;
-  --text: hsla(0, 0%, 100%, 1);
-  --title: hsl(var(--hue), 81%, 59%);
+    --bg: #404040;
+    --text: hsla(0, 0%, 100%, 1);
+    --title: hsl(var(--hue), 81%, 59%);
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  display: grid;
-  grid-template-columns: 1fr 500px 1fr;
-  background: var(--bg);
+    font-family: 'Roboto Mono', monospace;
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    background: var(--bg);
 }
 
 .content {
-  margin: 63px 30px;
-  display: grid;
-  grid-area: 1/ 2;
-  justify-items: center;
-  gap: 15px;
+    margin: 63px 30px;
+    display: grid;
+    grid-area: 1/ 2;
+    justify-items: center;
+    gap: 15px;
 }
 
 .img {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .img img {
-  width: 50%;
-  padding: 7px;
-  border-radius: 50%;
-  border: 5px solid var(--bg-two);
+    padding: 7px;
+    border-radius: 50%;
+    border: 5px solid var(--bg-two);
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
-  color: var(--title);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--title);
 }
 
 .text {
-  color: var(--text);
+    color: var(--text);
 }
 
 a {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  color: var(--text);
-  text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--text);
+    text-decoration: none;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .select {
-  margin-top: 15px;
-  width: 400px;
-  padding: 18px;
-  border: none;
-  border-radius: 10px;
-  background: var(--button-hover);
+    margin-top: 15px;
+    width: 400px;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    background: var(--button-hover);
 }
 
 .select:hover {
-  background: var(--bg-two);
-  transition: 1s;
-  transform: scale(1.1);
-  opacity: 1;
+    background: var(--bg-two);
+    transition: 1s;
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .select > a {
-  color: hsla(0, 0%, 100%, 1);
-  font-size: 14px;
-  text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 14px;
+    text-transform: uppercase;
 
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-  letter-spacing: 2px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    letter-spacing: 2px;
 }
 
 .select > a:hover {
-  font-weight: bold;
-  transition: 1s;
+    font-weight: bold;
+    transition: 1s;
 }
 
 .select a > img {
-  width: 20px;
+    width: 20px;
 }
 
 footer p {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 footer p,
 footer a {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  color: var(--text);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text);
 }
 
 .dark-light-mode {
-  background: transparent;
-  display: block;
-  border: none;
+    background: transparent;
+    display: block;
+    border: none;
 }
 
 .dark-light-mode li {
-  position: absolute;
-  padding: 0;
-  top: 20px;
-  right: 50px;
+    position: absolute;
+    padding: 0;
+    top: 20px;
+    right: 50px;
 }
 
 .dark img,
 .light img {
-  max-width: 50px;
+    max-width: 50px;
 }
 
 .dark-light-mode li.hidden {
-  display: none;
+    display: none;
 }
 
 .dark-light-mode:hover {
-  background: transparent;
+    background: transparent;
 }
 
 @media (max-width: 500px) {
-  body {
-    display: flex;
-  }
-  .select {
-    width: 280px;
-    background: var(--bg-two);
-    padding: 15px;
-  }
+    body {
+        display: flex;
+    }
+    .select {
+        width: 280px;
+        background: var(--bg-two);
+        padding: 15px;
+    }
 
-  .dark img,
-  .light img {
-    max-width: 40px;
-  }
+    .dark img,
+    .light img {
+        max-width: 40px;
+    }
 }
