@@ -4,6 +4,9 @@ Faaala dev!, seja bem-vindo a mais um projeto.
 
 Rolou a segunda maratona explorer da RocketSeat 🚀, decidi participar para botar alguns dos meus conhecimentos em pratica e também para continuar adquirindo novos.
 
+![preview](./public/image.png)
+![preview](./public/image-1.png)
+
 ## <a href="https://renyzeraa.github.io/linktree-model/" > Deploy 🛫 </a>
 
 O projeto final é uma estilo de links úteis em uma página só (igual o linktree), com darkmode, segue o projeto no figma para caso você queira fazer tambem !
@@ -12,6 +15,7 @@ Para duplicar os layouts, basta você clicar no link abaixo.
 Ele adicionará o Layout à sua dashboard do Figma automaticamente, como uma cópia.
 
 ### Para fazer este projeto usei 👇
+
 <span>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
@@ -32,4 +36,3 @@ Made with ❤️ by [Renan L. Silva](https://github.com/renyzeraa)! <br>
 <a href="https://www.github.com/renyzeraa" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub Badge" height="20"></a>&nbsp;
 
 <br clear="left"/>
-
